@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.808.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "iOSBinding", "iOSBinding", "{233885FB-CBC3-494B-A45C-9AC01A61A81A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleNearByMessaging", "GoogleNearByMessaging\GoogleNearByMessaging.csproj", "{8639DD1A-F002-4FCB-8336-9C3261BFF95E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|anycpu = Debug|anycpu
+		Release|anycpu = Release|anycpu
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8639DD1A-F002-4FCB-8336-9C3261BFF95E}.Debug|anycpu.ActiveCfg = Debug|Any CPU
+		{8639DD1A-F002-4FCB-8336-9C3261BFF95E}.Debug|anycpu.Build.0 = Debug|Any CPU
+		{8639DD1A-F002-4FCB-8336-9C3261BFF95E}.Release|anycpu.ActiveCfg = Release|Any CPU
+		{8639DD1A-F002-4FCB-8336-9C3261BFF95E}.Release|anycpu.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C4192F09-B268-40ED-BD50-4971879E581A}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8639DD1A-F002-4FCB-8336-9C3261BFF95E} = {233885FB-CBC3-494B-A45C-9AC01A61A81A}
+	EndGlobalSection
+EndGlobal
