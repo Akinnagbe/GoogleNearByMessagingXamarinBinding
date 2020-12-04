@@ -46,5 +46,11 @@
   <ItemGroup>
     <ObjcBindingCoreSource Include="Structs.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <NativeReference Include="..\..\..\..\GoogleNearbyMessagingBinding\Google NearBy Messaging\NearbyMessages-1.1.0\Libraries\libGNSMessages.a">
+      <Kind>Static</Kind>
+      <SmartLink>False</SmartLink>
+    </NativeReference>
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.ObjCBinding.CSharp.targets" />
 </Project>
